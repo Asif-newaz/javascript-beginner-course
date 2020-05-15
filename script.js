@@ -25,11 +25,19 @@ document.getElementById('personAge').innerHTML = age;
 // num1 = num1 + 1;
 // console.log(num1);
 
-var num1 = 10;
+// var num1 = 10;
 
 //Increament num1 by 1
 // num1++;
 
 //Decreament num1 by 1
 // num1--;
-console.log(num1);
+// console.log(num1);
+
+//Divide, multiply *, remainder %
+
+/*
+console.log(num1 % 3);
+console.log(num1 / 3);
+console.log(num1 * 3);
+*/
