@@ -27,10 +27,10 @@ document.getElementById('personAge').innerHTML = age;
 
 // var num1 = 10;
 
-//Increament num1 by 1
+//Increment num1 by 1
 // num1++;
 
-//Decreament num1 by 1
+//Decrement num1 by 1
 // num1--;
 // console.log(num1);
 
@@ -41,3 +41,8 @@ console.log(num1 % 3);
 console.log(num1 / 3);
 console.log(num1 * 3);
 */
+
+//Increment/Decrement num1 by 10
+// num1 += 10;
+// num1 -= 10;
+// console.log(num1);
