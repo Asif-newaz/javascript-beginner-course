@@ -46,3 +46,16 @@ console.log(num1 * 3);
 // num1 += 10;
 // num1 -= 10;
 // console.log(num1);
+
+/*
+Functions
+1. Create a function
+2. Call the function
+*/
+
+function fun() {
+    alert('this is a function');
+}
+
+//call
+fun();
