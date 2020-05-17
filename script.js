@@ -53,12 +53,15 @@ Functions
 2. Call the function
 */
 
+//Creating a function
+/*
 function fun() {
-    console.log('this is a function');
+    console.log('This is a function');
 }
+*/
 
 //call
-fun();
+// fun();
 
 /*
 Let's create a function that take in name and says hello followed by your name
@@ -67,11 +70,28 @@ For example
 Name: "Asif"
 Return: "Hello Asif"
 */
-
+/*
 function greeting() {
     var name = prompt('what is your name');
     var result = 'Hello' + ' ' + name; //String concatenation
     console.log(result);
 }
+*/
 
-greeting();
+// greeting();
+
+//How do argument work in function
+//How do we add 2 numbers together in a function
+
+function sumNumber(a, b) {
+    var result = a + b;
+    console.log(result);
+}
+
+sumNumber(10, 10);
+
+function greeting() {
+    var name = prompt('what is your name');
+    var result = 'Hello' + ' ' + name; //String concatenation
+    console.log(result);
+}  
