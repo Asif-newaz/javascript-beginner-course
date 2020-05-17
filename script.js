@@ -83,15 +83,19 @@ function greeting() {
 //How do argument work in function
 //How do we add 2 numbers together in a function
 
+/*
 function sumNumber(a, b) {
     var result = a + b;
     console.log(result);
 }
+*/
+// sumNumber(10, 10);
 
-sumNumber(10, 10);
 
-function greeting() {
-    var name = prompt('what is your name');
-    var result = 'Hello' + ' ' + name; //String concatenation
+function greeting(yourName) {
+    var result = 'Hello' + ' ' + yourName; //String concatenation
     console.log(result);
-}  
+}
+var name = prompt('what is your name');
+
+greeting(name);
