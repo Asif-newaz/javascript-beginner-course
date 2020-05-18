@@ -91,7 +91,7 @@ function sumNumber(a, b) {
 */
 // sumNumber(10, 10);
 
-
+/*
 function greeting(yourName) {
     var result = 'Hello' + ' ' + yourName; //String concatenation
     console.log(result);
@@ -99,3 +99,19 @@ function greeting(yourName) {
 var name = prompt('what is your name');
 
 greeting(name);
+*/
+
+//While loop
+/*
+var num = 0;
+
+while (num < 10) {
+    console.log(num);
+    num += 1;
+}
+*/
+
+//for Loop
+for (let num = 0; num < 100; num++) {
+    console.log(num);
+}
