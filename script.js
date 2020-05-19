@@ -130,6 +130,7 @@ console.log(typeof yourAge);
 
 //String in JavaScript (common methods)
 let fruit = 'Banana';
+let splitFruit = 'Orange,Coconut,Wood Apple,Lemon';
 
 /*
 let morefruits = 'Banana\nApple';   //new line
@@ -143,4 +144,7 @@ console.log(fruit.slice(0, 3));
 console.log(fruit.replace('Ban', '123'));
 console.log(fruit.toUpperCase(fruit));
 console.log(fruit.toLowerCase(fruit));
-console.log(charAt);
+console.log(fruit.charAt(2));
+console.log(fruit[2]);
+console.log(splitFruit.split(',')); //Split by a comma
+console.log(splitFruit.split('')); //Split by a character
