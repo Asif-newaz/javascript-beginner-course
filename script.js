@@ -112,6 +112,16 @@ while (num < 10) {
 */
 
 //for Loop
-for (let num = 0; num < 100; num++) {
+/*
+for (let num = 0; num <= 10; num++) {
     console.log(num);
 }
+*/
+
+//Data types
+let yourAge = 18; //number
+let yourName = 'Asif'; //String
+let name = {first: 'Jane', last: 'Doe'}; //Object
+console.log(yourAge);
+console.log(yourName);
+console.log(name);
