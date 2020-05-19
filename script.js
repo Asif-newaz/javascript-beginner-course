@@ -122,6 +122,25 @@ for (let num = 0; num <= 10; num++) {
 let yourAge = 18; //number
 let yourName = 'Asif'; //String
 let name = {first: 'Jane', last: 'Doe'}; //Object
-console.log(yourAge);
-console.log(yourName);
-console.log(name);
+let truth = false; //Boolean
+let groceries = ['Apple', 'Banana', 'Orange']; //Array
+let random; //undefined
+let nothing = null; //value null
+console.log(typeof yourAge);
+
+//String in JavaScript (common methods)
+let fruit = 'Banana';
+
+/*
+let morefruits = 'Banana\nApple';   //new line
+
+console.log(morefruits);
+*/
+
+console.log(fruit.length);
+console.log(fruit.indexOf('nan'));
+console.log(fruit.slice(0, 3));
+console.log(fruit.replace('Ban', '123'));
+console.log(fruit.toUpperCase(fruit));
+console.log(fruit.toLowerCase(fruit));
+console.log(charAt);
