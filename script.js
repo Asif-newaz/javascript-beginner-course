@@ -131,8 +131,10 @@ console.log(typeof yourAge);
 */
 
 //String in JavaScript (common methods)
+/*
 let fruit = 'Banana';
 let splitFruit = 'Orange,Coconut,Wood Apple,Lemon';
+*/
 
 /*
 let morefruits = 'Banana\nApple';   //new line
@@ -140,6 +142,7 @@ let morefruits = 'Banana\nApple';   //new line
 console.log(morefruits);
 */
 
+/*
 console.log(fruit.length);
 console.log(fruit.indexOf('nan'));
 console.log(fruit.slice(0, 3));
@@ -150,3 +153,11 @@ console.log(fruit.charAt(2));
 console.log(fruit[2]);
 console.log(splitFruit.split(',')); //Split by a comma
 console.log(splitFruit.split('')); //Split by a character
+*/
+
+
+//Array
+// let fruits = ['Banana', 'Apple', 'Orange', 'Pineapple'];
+let fruits = new Array('Banana', 'Apple', 'Orange', 'Pineapple');
+
+console.log(fruits[1]);
