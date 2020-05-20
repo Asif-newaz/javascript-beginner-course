@@ -119,6 +119,7 @@ for (let num = 0; num <= 10; num++) {
 */
 
 //Data types
+/*
 let yourAge = 18; //number
 let yourName = 'Asif'; //String
 let name = {first: 'Jane', last: 'Doe'}; //Object
@@ -127,6 +128,7 @@ let groceries = ['Apple', 'Banana', 'Orange']; //Array
 let random; //undefined
 let nothing = null; //value null
 console.log(typeof yourAge);
+*/
 
 //String in JavaScript (common methods)
 let fruit = 'Banana';
