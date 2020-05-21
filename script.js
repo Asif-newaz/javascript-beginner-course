@@ -160,4 +160,13 @@ console.log(splitFruit.split('')); //Split by a character
 // let fruits = ['Banana', 'Apple', 'Orange', 'Pineapple'];
 let fruits = new Array('Banana', 'Apple', 'Orange', 'Pineapple');
 
-console.log(fruits[1]);
+console.log(fruits[2]); //access value at index 2nd
+
+fruits[0] = 'Pear';
+console.log(fruits);
+console.log(fruits[0]);
+
+//A loop has been run in the Array
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
