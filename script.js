@@ -163,8 +163,9 @@ console.log(splitFruit.split('')); //Split by a character
 // let fruits = ['Banana', 'Apple', 'Orange', 'Pineapple'];
 
 //And this is another way
-let fruits = new Array('Banana', 'Apple', 'Orange', 'Pineapple');
+// let fruits = new Array('Banana', 'Apple', 'Orange', 'Pineapple');
 
+/*
 console.log(fruits[2]); //access value at index 2nd
 
 fruits[0] = 'Pear';
@@ -175,5 +176,9 @@ console.log(fruits[0]);
 for (let i = 0; i < fruits.length; i++) {
     console.log(fruits[i]);
 }
+*/
 
-// Array common method
+// Array common methods
+let commonMethodArray = ['Banana', 'Apple', 'Orange', 'Pineapple'];
+
+console.log('to String', commonMethodArray.toString());
