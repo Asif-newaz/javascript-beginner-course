@@ -157,7 +157,12 @@ console.log(splitFruit.split('')); //Split by a character
 
 
 //Array
+//We can write an array in two ways
+
+//This is the first way
 // let fruits = ['Banana', 'Apple', 'Orange', 'Pineapple'];
+
+//And this is another way
 let fruits = new Array('Banana', 'Apple', 'Orange', 'Pineapple');
 
 console.log(fruits[2]); //access value at index 2nd
@@ -170,3 +175,5 @@ console.log(fruits[0]);
 for (let i = 0; i < fruits.length; i++) {
     console.log(fruits[i]);
 }
+
+// Array common method
