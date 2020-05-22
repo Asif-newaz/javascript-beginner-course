@@ -182,3 +182,4 @@ for (let i = 0; i < fruits.length; i++) {
 let commonMethodArray = ['Banana', 'Apple', 'Orange', 'Pineapple'];
 
 console.log('to String', commonMethodArray.toString());
+console.log(commonMethodArray.join('-'));
