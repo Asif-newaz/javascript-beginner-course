@@ -193,3 +193,8 @@ commonMethodArray.shift();
 console.log(commonMethodArray); //Remove first element from an Array
 commonMethodArray.unshift('Kiwi');
 console.log(commonMethodArray); //Add first element to an Array
+let vegetables = ['Asparagus', 'Tomato', 'Broccoli'];
+let allGroceries = commonMethodArray.concat(vegetables); //Combine arrays
+console.log(allGroceries);
+console.log(allGroceries.slice(1, 4));
+console.log(allGroceries.reverse());
