@@ -182,4 +182,14 @@ for (let i = 0; i < fruits.length; i++) {
 let commonMethodArray = ['Banana', 'Apple', 'Orange', 'Pineapple'];
 
 console.log('to String', commonMethodArray.toString());
-console.log(commonMethodArray.join('-'));
+console.log(commonMethodArray.join(' * '));
+console.log(commonMethodArray.pop(), commonMethodArray); //Removes last item
+console.log(commonMethodArray.push('blackberries'), commonMethodArray); //Appends item
+console.log(commonMethodArray[3]);
+commonMethodArray[4] = 'new fruit';
+console.log(commonMethodArray);
+
+commonMethodArray.shift();
+console.log(commonMethodArray); //Remove first element from an Array
+commonMethodArray.unshift('Kiwi');
+console.log(commonMethodArray); //Add first element to an Array
