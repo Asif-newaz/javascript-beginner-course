@@ -203,5 +203,5 @@ console.log(allGroceries.sort());
 
 
 let someNumber = [5, 10, 2, 25, 3, 255, 1, 2, 5, 334, 321, 2];
-console.log(someNumber.sort(function(a,b) {return a-b}));
-console.log(someNumber.sort(function(a,b) {return b-a}));
+console.log(someNumber.sort(function(a,b) {return a-b})); //Sorted in ascending order
+console.log(someNumber.sort(function(a,b) {return b-a})); //Sorted in descending order
