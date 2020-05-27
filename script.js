@@ -2,7 +2,7 @@ console.log('hello');
 
 // alert('Hey, whats up?');
 
-//Variables
+//VARIABLES
 // var b = 'smoothie';
 // console.log(b);
 
@@ -17,7 +17,7 @@ var age = prompt('What is your age?');
 document.getElementById('personAge').innerHTML = age;
 */
 
-//Numbers in JavaScript 
+//NUMBERS IN JAVASCRIPT
 // var num1 = 5.7;
 // console.log(5 * 10);
 
@@ -27,14 +27,14 @@ document.getElementById('personAge').innerHTML = age;
 
 // var num1 = 10;
 
-//Increment num1 by 1
+//INCREMENT num1 BY 1
 // num1++;
 
-//Decrement num1 by 1
+//DECREMENT num1 BY 1
 // num1--;
 // console.log(num1);
 
-//Divide, multiply *, remainder %
+//DIVIDE, MULTIPLY *, REMAINDER %
 
 /*
 console.log(num1 % 3);
@@ -42,31 +42,31 @@ console.log(num1 / 3);
 console.log(num1 * 3);
 */
 
-//Increment/Decrement num1 by 10
+//INCREMENT/DECREMENT num1 BY 10
 // num1 += 10;
 // num1 -= 10;
 // console.log(num1);
 
 /*
-Functions
+FUNCTIONS
 1. Create a function
 2. Call the function
 */
 
-//Creating a function
+//CREATION A FUNCTION
 /*
 function fun() {
     console.log('This is a function');
 }
 */
 
-//call
+//CALL
 // fun();
 
 /*
-Let's create a function that take in name and says hello followed by your name
+LET'S CREATE A FUNCTION THAT TAKE IN NAME AND SAYS HELLO FOLLOWED BY YOUR NAME
 
-For example
+FOR EXAMPLE
 Name: "Asif"
 Return: "Hello Asif"
 */
@@ -80,8 +80,8 @@ function greeting() {
 
 // greeting();
 
-//How do argument work in function
-//How do we add 2 numbers together in a function
+//HOW DO ARGUMENT WORK IN FUNCTION
+//HOW DO WE ADD 2 NUMBERS TOGETHER IN FUNCTION
 
 /*
 function sumNumber(a, b) {
@@ -101,7 +101,7 @@ var name = prompt('what is your name');
 greeting(name);
 */
 
-//While loop
+//WHILE LOOP
 /*
 var num = 0;
 
@@ -111,14 +111,14 @@ while (num < 10) {
 }
 */
 
-//for Loop
+//FOR LOOP
 /*
 for (let num = 0; num <= 10; num++) {
     console.log(num);
 }
 */
 
-//Data types
+//DATA TYPE
 /*
 let yourAge = 18; //number
 let yourName = 'Asif'; //String
@@ -130,7 +130,7 @@ let nothing = null; //value null
 console.log(typeof yourAge);
 */
 
-//String in JavaScript (common methods)
+//STRING IN JAVASCRIPT (COMMON METHOD)
 /*
 let fruit = 'Banana';
 let splitFruit = 'Orange,Coconut,Wood Apple,Lemon';
@@ -156,13 +156,13 @@ console.log(splitFruit.split('')); //Split by a character
 */
 
 
-//Array
-//We can write an array in two ways
+//ARRAY
+//WE CAN WRITE AN ARRAY IN TWO WAYS
 
-//This is the first way
+//THIS IS THE FIRST WAY
 // let fruits = ['Banana', 'Apple', 'Orange', 'Pineapple'];
 
-//And this is another way
+//AND THIS IS ANOTHER WAY
 // let fruits = new Array('Banana', 'Apple', 'Orange', 'Pineapple');
 
 /*
@@ -172,43 +172,59 @@ fruits[0] = 'Pear';
 console.log(fruits);
 console.log(fruits[0]);
 
-//A loop has been run in the Array
+//A LOOP HAS BEEN RUN IN ARRAY
 for (let i = 0; i < fruits.length; i++) {
     console.log(fruits[i]);
 }
 */
 
-// Array common methods
+// ARRAY COMMON METHOD
+// let commonMethodArray = ['Banana', 'Apple', 'Orange', 'Pineapple'];
 
-let commonMethodArray = ['Banana', 'Apple', 'Orange', 'Pineapple'];
+// console.log('to String', commonMethodArray.toString());
+// console.log(commonMethodArray.join(' * '));
+// console.log(commonMethodArray.pop(), commonMethodArray); //Removes last item
+// console.log(commonMethodArray.push('blackberries'), commonMethodArray); //Appends item
+// console.log(commonMethodArray[3]);
+// commonMethodArray[4] = 'new fruit';
+// console.log(commonMethodArray);
 
-console.log('to String', commonMethodArray.toString());
-console.log(commonMethodArray.join(' * '));
-console.log(commonMethodArray.pop(), commonMethodArray); //Removes last item
-console.log(commonMethodArray.push('blackberries'), commonMethodArray); //Appends item
-console.log(commonMethodArray[3]);
-commonMethodArray[4] = 'new fruit';
-console.log(commonMethodArray);
-
-commonMethodArray.shift();
-console.log(commonMethodArray); //Remove first element from an Array
-commonMethodArray.unshift('Kiwi');
-console.log(commonMethodArray); //Add first element to an Array
-let vegetables = ['Asparagus', 'Tomato', 'Broccoli'];
-let allGroceries = commonMethodArray.concat(vegetables); //Combine arrays
-console.log(allGroceries);
-console.log(allGroceries.slice(1, 4));
-console.log(allGroceries.reverse());
-console.log(allGroceries.sort());
+// commonMethodArray.shift();
+// console.log(commonMethodArray); //Remove first element from an Array
+// commonMethodArray.unshift('Kiwi');
+// console.log(commonMethodArray); //Add first element to an Array
+// let vegetables = ['Asparagus', 'Tomato', 'Broccoli'];
+// let allGroceries = commonMethodArray.concat(vegetables); //Combine arrays
+// console.log(allGroceries);
+// console.log(allGroceries.slice(1, 4));
+// console.log(allGroceries.reverse());
+// console.log(allGroceries.sort());
 
 
-let someNumber = [5, 10, 2, 25, 3, 255, 1, 2, 5, 334, 321, 2];
-console.log(someNumber.sort(function(a,b) {return a-b})); //Sorted in ascending order
-console.log(someNumber.sort(function(a,b) {return b-a})); //Sorted in descending order
+// let someNumber = [5, 10, 2, 25, 3, 255, 1, 2, 5, 334, 321, 2];
+// console.log(someNumber.sort(function(a,b) {return a-b})); //Sorted in ascending order
+// console.log(someNumber.sort(function(a,b) {return b-a})); //Sorted in descending order
 
+/*
 let emptyArray = new Array();
 for (let num = 0; num <= 10; num++) {
     emptyArray.push(num);
 }
 
 console.log(emptyArray);
+*/
+
+// OBJECTS IN JAVASCRIPT
+
+let student = {
+    first: 'Asif',
+    last: 'Newaz',
+    age: 26,
+    height: 175,
+};
+console.log(student.first);
+console.log(student.last);
+student.first = 'notAsif'; //change value
+console.log(student.first);
+student.age++;
+console.log(student.age);
