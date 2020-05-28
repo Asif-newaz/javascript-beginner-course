@@ -254,3 +254,29 @@ if ( (age >= 18) && (age <= 35) ) {
 }
 */
 
+
+// Switch statements
+// Differentiate between weekday vs weekend
+// Day 0 --> Sunday --> weekend
+// Day 1 --> Monday --> weekday
+// Day 2 --> Tuesday
+// Day 3 --> Wednesday
+// Day 4 --> Thursday --> weekday
+// Day 5 --> Friday -->weekend
+// Day 6 --> Saturday --> weekend
+switch (5) {
+    case 0:
+        text = 'weekend';
+        break;
+    case 5:
+        text = 'weekend';
+        break;
+    case 6:
+        text = 'weekend';
+        break;
+
+    default:
+        text = 'weekday';
+}
+
+console.log(text);
