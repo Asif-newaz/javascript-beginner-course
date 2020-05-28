@@ -214,8 +214,10 @@ for (let num = 0; num <= 10; num++) {
 console.log(emptyArray);
 */
 
-// OBJECTS IN JAVASCRIPT
 
+
+// OBJECTS IN JAVASCRIPT
+/*
 let student = {
     first: 'Asif',
     last: 'Newaz',
@@ -225,10 +227,30 @@ let student = {
         return this.first + '\n' + this.last + "\n" + this.age;
     }
 };
+*/
+
 // console.log(student.first);
 // console.log(student.last);
 // student.first = 'notAsif'; //change value
 // console.log(student.first);
 // student.age++;
 // console.log(student.age);
-console.log(student.studentInfo());
+// console.log(student.studentInfo());
+
+//Conditionals, Control flows(if else)
+//18-35 is the target demographic of this video
+// && AND
+// || OR
+
+// var age = prompt('what is your age?');
+
+/*
+if ( (age >= 18) && (age <= 35) ) {
+    status = 'target demo';
+    console.log(status);
+} else {
+    status = 'not my audience';
+    console.log(status);
+}
+*/
+
