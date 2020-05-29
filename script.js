@@ -264,6 +264,8 @@ if ( (age >= 18) && (age <= 35) ) {
 // Day 4 --> Thursday --> weekday
 // Day 5 --> Friday -->weekend
 // Day 6 --> Saturday --> weekend
+
+/*
 switch (5) {
     case 0:
         text = 'weekend';
@@ -278,5 +280,6 @@ switch (5) {
     default:
         text = 'weekday';
 }
+*/
 
-console.log(text);
+// console.log(text);
